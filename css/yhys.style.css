@@ -202,7 +202,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
 .m2 .l2{background:url(../img/l2.png) no-repeat left center; padding-left:20px; color:#757575;}
 .m2 .l3{background:url(../img/l3.png) no-repeat left center; padding-left:20px; margin-left:14px;color:#757575;}
 /*-------------------公告资讯m3--------------------------*/
-.m3{height:155px;}
+
 .m3 .h{margin-top:-4px;}
 .m3 h2{background:url(../img/m3-h2.png) no-repeat 16px center; }
 .m3 li{font-size:12px;}
@@ -211,7 +211,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
 .m4 .h{background:url(../img/mb-h.png) no-repeat 10px top;}
 .m4 h2{background:url(../img/m4-h2.png) no-repeat 16px center;}
 .m4 h3{font-size:16px;}
-.m4 .b{font-size:12px; line-height:26px; }
+.m4 .b{font-size:12px; line-height:26px; height: 212px; overflow: hidden;}
+.m4 .b legend{text-align: center;}
+.m4 .b legend a{ font-size: 16px; font-weight: bold; color: #000;}
 .m4 .input{height:26px;}
 .m4 .tit{text-align:center;}
 .m4 p{color:#5D5D5F; text-indent:2em;}
