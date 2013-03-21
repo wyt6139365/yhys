@@ -98,7 +98,7 @@ strong,h1,h2,h3,h4,dt,h1 a,h2 a,h3 a,h4 a{font-weight:bold;}
 #b .r3 .c1{background:url(../img/r3-c1.png) no-repeat right center;}
 #b .r4{border:1px solid #D3D3D3; border-bottom:none; }
 #b .r4 .c1{border-right:1px solid #D3D3D3;}
-#b .r5{border:1px solid #D3D3D3;}
+#b .r5{border:1px solid #D3D3D3;font-size:12px;}
 #b .br{margin-left:-1px;}
 .zy .bw2{height:1413px;}
 #b .bw2{border:1px solid #D3D3D3; margin-top:4px;}
@@ -138,7 +138,8 @@ strong,h1,h2,h3,h4,dt,h1 a,h2 a,h3 a,h4 a{font-weight:bold;}
 .slider .f .activeSlide{background:url(../img/m1-f-hover.png) no-repeat center center;}
 /*-------------------布局--------------------------*/
 .w{width:960px; margin:0 auto;}
-#h .r3 .c2{width: 600px;}
+#h .r3 .c1{_width: 280px;}
+#h .r3 .c2{_width: 600px;}
 #b .c1{width:289px;}
 #b .c2{width:378px;}
 #b .bl{width:686px;}
@@ -156,6 +157,8 @@ strong,h1,h2,h3,h4,dt,h1 a,h2 a,h3 a,h4 a{font-weight:bold;}
 #h .r3 label{line-height:30px;}
 #h .r3 span{font-weight:bold; margin-right:4px;}
 #h .r3 input{height:22px; vertical-align:middle; line-height:22px;}
+#h .r3 .text{width:100px;}
+#h .r3 img{vertical-align:middle;}
 #keyword{width:100px;}
 #num,
 #username{width:80px;}
@@ -423,3 +426,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
 .m29 .l11{display:inline-block; font-size:12px; color:#737373;}
 .m29 .l10 span{font-weight:bold;}
 .m29 .wb{margin-left:338px;}
+/*-------------------评论--------------------------*/
+.content {
+border: 1px solid #ccc;
+margin: 5px;
+padding: 5px;
+}
+.content span{display:block;}
